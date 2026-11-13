@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NuGetAudit>false</NuGetAudit>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BudgetPipeline\BudgetPipeline.csproj" />
+    <Content Include="..\BudgetPipeline\runtimes\win-x64\native\budget_native.dll"
+             CopyToOutputDirectory="PreserveNewest"
+             Link="runtimes\win-x64\native\budget_native.dll"
+             Condition="Exists('..\BudgetPipeline\runtimes\win-x64\native\budget_native.dll')" />
+    <Content Include="..\BudgetPipeline\runtimes\linux-x64\native\libbudget_native.so"
+             CopyToOutputDirectory="PreserveNewest"
+             Link="runtimes\linux-x64\native\libbudget_native.so"
+             Condition="Exists('..\BudgetPipeline\runtimes\linux-x64\native\libbudget_native.so')" />
+  </ItemGroup>
+</Project>

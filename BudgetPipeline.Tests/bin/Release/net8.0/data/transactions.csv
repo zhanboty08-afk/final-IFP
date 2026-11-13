@@ -1,0 +1,7 @@
+Id,Category,Amount,Status
+1,Food,12.50,Approved
+2,Transport,3.00,Approved
+3,Food,0.00,Approved
+4,Books,20.00,Pending
+5,Transport,7.50,Rejected
+6,Food,5.00,Pending

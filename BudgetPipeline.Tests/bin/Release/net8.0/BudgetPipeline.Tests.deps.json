@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BudgetPipeline.Tests/1.0.0": {
+        "dependencies": {
+          "BudgetPipeline": "1.0.0"
+        },
+        "runtime": {
+          "BudgetPipeline.Tests.dll": {}
+        }
+      },
+      "BudgetPipeline/1.0.0": {
+        "runtime": {
+          "BudgetPipeline.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BudgetPipeline.Tests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BudgetPipeline/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
