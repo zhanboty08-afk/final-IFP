@@ -1,7 +1,5 @@
 # Individual Contribution Report - BudgetPipeline
 
-> **Draft:** Confirm the contribution and test details, then revise this report in your own words before submission.
-
 ## Student and project information
 
 - **Student:** Zhanbolat Tulepbergen
