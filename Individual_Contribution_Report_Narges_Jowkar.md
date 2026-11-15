@@ -1,26 +1,26 @@
 
 
-\# Individual Contribution Report - BudgetPipeline
+# Individual Contribution Report - BudgetPipeline
 
 
 
-\## Student and project information
+## Student and project information
 
 
 
-\- \*\*Student:\*\* Narges Jowkar
+- **Student:** Narges Jowkar
 
-\- \*\*Group:\*\* IT-2513
+- **Group:** IT-2513
 
-\- \*\*Course:\*\* Introduction to Functional Programming
+- **Course:** Introduction to Functional Programming
 
-\- \*\*Project:\*\* BudgetPipeline - Final Project
+- **Project:** BudgetPipeline - Final Project
 
-\- \*\*Team members:\*\* Zhanbolat Tulepbergen, Narges Jowkar, and Almadi Askhat
+- **Team members:** Zhanbolat Tulepbergen, Narges Jowkar, and Almadi Askhat
 
 
 
-\## Project goal
+## Project goal
 
 
 
@@ -32,7 +32,7 @@ The application uses functional programming concepts such as explicit error hand
 
 
 
-\## My main contribution
+## My main contribution
 
 
 
@@ -62,7 +62,7 @@ My assigned technical area focused on functional error handling, optional-value 
 
 
 
-\## How my work connects with the rest of the project
+## How my work connects with the rest of the project
 
 
 
@@ -98,31 +98,31 @@ Together, these modules connect validated input data with expense processing and
 
 
 
-\## Functional and programming concepts used
+## Functional and programming concepts used
 
 
 
-\- \*\*Explicit failures:\*\* `Result<T>` represents success and failure as values.
+- **Explicit failures:** `Result<T>` represents success and failure as values.
 
-\- \*\*Optional values:\*\* `Maybe<T>` distinguishes existing values from missing values.
+- **Optional values:** `Maybe<T>` distinguishes existing values from missing values.
 
-\- \*\*Functional composition:\*\* `Map` and `Bind` allow operations to be combined while propagating failures.
+- **Functional composition:** `Map` and `Bind` allow operations to be combined while propagating failures.
 
-\- \*\*Pattern matching:\*\* Different result and expense-state cases can be handled explicitly.
+- **Pattern matching:** Different result and expense-state cases can be handled explicitly.
 
-\- \*\*Immutable state:\*\* Successful workflow operations can return updated state without modifying the previous state.
+- **Immutable state:** Successful workflow operations can return updated state without modifying the previous state.
 
-\- \*\*Extension methods:\*\* Reusable transformations improve readability and reduce duplicated code.
+- **Extension methods:** Reusable transformations improve readability and reduce duplicated code.
 
-\- \*\*LINQ:\*\* Filtering, grouping, projection, aggregation, and ordering are expressed declaratively.
+- **LINQ:** Filtering, grouping, projection, aggregation, and ordering are expressed declaratively.
 
-\- \*\*Separation of concerns:\*\* Error handling, workflow rules, and reporting remain separate from file input and output.
+- **Separation of concerns:** Error handling, workflow rules, and reporting remain separate from file input and output.
 
-\- \*\*Deterministic output:\*\* Consistent ordering rules help reports produce predictable results.
+- **Deterministic output:** Consistent ordering rules help reports produce predictable results.
 
 
 
-\## Testing and verification
+## Testing and verification
 
 
 
@@ -160,11 +160,11 @@ Relevant test scenarios include:
 
 
 
-The shared project report records a complete test run of \*\*50 passed and 0 failed on 13 November 2026\*\*.
+The shared project report records a complete test run of **50 passed and 0 failed on 13 November 2026**.
 
 
 
-The updated Release solution was recorded as building on \*\*14 November 2026 with 0 warnings and 0 errors\*\*.
+The updated Release solution was recorded as building on **14 November 2026 with 0 warnings and 0 errors**.
 
 
 
@@ -172,7 +172,7 @@ The complete test suite still needs to be rerun after the latest scoring API and
 
 
 
-\## Difficulties and limitations
+## Difficulties and limitations
 
 
 
@@ -200,7 +200,7 @@ The current implementation uses application-defined budget limits and processes 
 
 
 
-\## Individual and shared work
+## Individual and shared work
 
 
 
@@ -220,17 +220,17 @@ The modules described in this report define the technical area I am responsible 
 
 
 
-\## Repository reference
+## Repository reference
 
 
 
-\- \*\*Repository:\*\* https://github.com/zhanboty08-afk/final-IFP
+- **Repository:** https://github.com/zhanboty08-afk/final-IFP
 
-\- \*\*Branch:\*\* `main`
+- **Branch:** `main`
 
-\- \*\*Reviewed source snapshot SHA:\*\* `359c50940a201052f9e004726b55c45b3c14127e`
+- **Reviewed source snapshot SHA:** `359c50940a201052f9e004726b55c45b3c14127e`
 
-\- \*\*Final submission commit SHA:\*\* Pending final team commit.
+- **Final submission commit SHA:** Pending final team commit.
 
 
 
