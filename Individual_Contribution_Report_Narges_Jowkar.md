@@ -40,24 +40,15 @@ My assigned technical area focused on functional error handling, optional-value 
 
 
 
-| Source files | Main functionality |
-
+|Source files | Main functionality |
 | --- | --- |
-
 | `Result.cs` | Represents successful and failed operations explicitly, supporting functional error handling and composition. |
-
 | `Maybe.cs` | Represents optional values and missing lookup results without relying on null references. |
-
 | `Error.cs` | Defines structured errors for validation and workflow failures. |
-
 | `ExpenseModels.cs` | Defines the domain models and expense states used by the workflow. |
-
 | `ExpenseWorkflow.cs` | Implements expense state transitions and validates operations against workflow and budget rules. |
-
 | `TransactionExtensions.cs` | Provides reusable transaction transformations and category calculations. |
-
 | `Reports.cs` | Generates category-level reports using LINQ filtering, grouping, aggregation, and ordering. |
-
 | `Assignment7Tests.cs`, `Assignment8Tests.cs` | Contain tests covering functional errors, lookups, state transitions, and reporting behavior. |
 
 
@@ -135,27 +126,16 @@ Relevant test scenarios include:
 
 
 | Test area | Input or scenario | Expected behavior |
-
 | --- | --- | --- |
-
 | Result success | A successful operation | The resulting value remains accessible. |
-
 | Result failure | An operation containing an error | The failure is preserved and propagated. |
-
 | Maybe lookup | A value exists | The value is represented as present. |
-
 | Maybe lookup | A value does not exist | The absence is represented explicitly. |
-
 | Expense workflow | A valid state transition | The operation returns the appropriate updated state. |
-
 | Expense workflow | An invalid state transition | The operation returns a failure. |
-
 | Ledger preservation | An expense operation fails | The previous ledger remains unchanged. |
-
 | Transaction processing | Transactions from different categories | Category calculations use the appropriate transactions. |
-
 | Reporting | Transactions with different amounts and statuses | The report follows the defined filtering and aggregation rules. |
-
 | Reporting edge cases | Zero-value and pending transactions | The report applies the intended inclusion and exclusion rules. |
 
 
